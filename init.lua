@@ -43,7 +43,20 @@ P.S. You can delete this when you're done too. It's your config now :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
--- Install package manager
+
+--[[
+-- Adwait:
+-- Setting vim tabsize defaults
+--
+--]]
+
+local vimconfig = vim.opt
+vimconfig.tabstop = 4
+vimconfig.softtabstop = 0
+vimconfig.shiftwidth = 4
+vimconfig.smarttab = true
+vimconfig.expandtab = true
+
 --    https://github.com/folke/lazy.nvim
 --    `:help lazy.nvim.txt` for more info
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
