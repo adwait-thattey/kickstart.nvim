@@ -56,6 +56,7 @@ vimconfig.softtabstop = 0
 vimconfig.shiftwidth = 4
 vimconfig.smarttab = true
 vimconfig.expandtab = true
+vimconfig.rnu = true
 
 --    https://github.com/folke/lazy.nvim
 --    `:help lazy.nvim.txt` for more info
